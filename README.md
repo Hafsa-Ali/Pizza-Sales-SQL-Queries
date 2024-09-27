@@ -17,7 +17,8 @@ Skills: SQL
 ### Basic Questions
 1. **Question 1: [Retrieve the total number of orders placed.]**
    - **Snapshot:**  
-     ![Query 1 Snapshot](link_to_your_snapshot1.png)
+     ![Query 1 Snapshot](![image](https://github.com/user-attachments/assets/1838adf8-bd1d-47e9-81e1-b69540da83ef)
+)
    - **SQL Query:**
      ```sql
       select count(order_id) from orders;
