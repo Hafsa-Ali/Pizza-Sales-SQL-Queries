@@ -41,14 +41,14 @@ Skills: SQL
 
    - **SQL Query:**
      ```sql
-            SELECT 
-             pizza_types.name, pizzas.price
-         FROM
-          pizza_types
-              JOIN
-          pizzas ON pizza_types.pizza_type_id = pizzas.pizza_type_id
-         ORDER BY price DESC
-         LIMIT 1;
+     SELECT 
+        pizza_types.name, pizzas.price
+     FROM
+        pizza_types
+           JOIN
+        pizzas ON pizza_types.pizza_type_id = pizzas.pizza_type_id
+     ORDER BY price DESC
+     LIMIT 1;
      ```
 4. **Question 4: [Identify the most common pizza size ordered.]**
    - **Snapshot:**  
@@ -56,13 +56,13 @@ Skills: SQL
 
    - **SQL Query:**
      ```sql
-            SELECT 
-             pizzas.size, COUNT(order_details.quantity)
-         FROM
-             pizzas
-                 JOIN
-             order_details ON pizzas.pizza_id = order_details.pizza_id
-         GROUP BY pizzas.size;
+     SELECT 
+        pizzas.size, COUNT(order_details.quantity)
+     FROM
+        pizzas
+           JOIN
+        order_details ON pizzas.pizza_id = order_details.pizza_id
+     GROUP BY pizzas.size;
      ```
 5. **Question 5: [List the top 5 most ordered pizza types along with their quantities.]**
    - **Snapshot:**  
@@ -89,15 +89,15 @@ Skills: SQL
      ![Query 1 Snapshot](https://github.com/Hafsa-Ali/Pizza-Sales-SQL-Queries/blob/main/Queries/Inter%201.PNG)
    - **SQL Query:**
      ```sql
-     SELECT 
+      SELECT 
        SUM(order_details.quantity) AS quan,
        pizza_types.category AS cat
       FROM
-          order_details
-              JOIN
-          pizzas ON order_details.pizza_id = pizzas.pizza_id
-              JOIN
-          pizza_types ON pizza_types.pizza_type_id = pizzas.pizza_type_id
+        order_details
+           JOIN
+        pizzas ON order_details.pizza_id = pizzas.pizza_id
+           JOIN
+        pizza_types ON pizza_types.pizza_type_id = pizzas.pizza_type_id
       GROUP BY category
       ORDER BY quan DESC;
      ```
@@ -128,15 +128,15 @@ Skills: SQL
      ![Query 4 Snapshot](https://github.com/Hafsa-Ali/Pizza-Sales-SQL-Queries/blob/main/Queries/Inter%204.PNG)
    - **SQL Query:**
      ```sql
-        select round(avg(quan),0) from (
-         SELECT 
-             orders.order_date, sum(order_details.quantity) as quan
-         FROM
-             orders
-                 JOIN
-             order_details ON orders.order_id = order_details.order_id
-         GROUP BY orders.order_date) 
-         as order_quan;
+     select round(avg(quan),0) from (
+     SELECT 
+        orders.order_date, sum(order_details.quantity) as quan
+     FROM
+        orders
+           JOIN
+        order_details ON orders.order_id = order_details.order_id
+     GROUP BY orders.order_date) 
+     as order_quan;
      ```
 5. **Question 5: [Determine the top 3 most ordered pizza types based on revenue.]**
    - **Snapshot:**  
