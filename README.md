@@ -20,7 +20,7 @@ Skills: SQL
      ![Query 1 Snapshot](link_to_your_snapshot1.png)
    - **SQL Query:**
      ```sql
-     -- select count(order_id) from orders;
+      select count(order_id) from orders;
      ```
 
 2. **Question 2: [Calculate the total revenue generated from pizza sales.]**
