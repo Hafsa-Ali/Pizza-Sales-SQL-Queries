@@ -1,7 +1,7 @@
 # Pizza-Sales-SQL-Queries
 ### Hi there 👋, I'm Hafsa Ali
 #### SQL Developer | Data Science & Analytics Enthusiast | Solving Problems with Data 
-![SQL Developer | Data Science & Analytics Enthusiast | Solving Problems with Data ](https://arturssmirnovs.github.io/github-profile-readme-generator/images/banner.png)
+![SQL Developer | Data Science & Analytics Enthusiast | Solving Problems with Data ](https://github.com/Hafsa-Ali/Pizza-Sales-SQL-Queries/blob/main/Queries/Banner.webp)
 
 This project showcases SQL queries for analyzing a fictional pizza sales dataset, named as the Pizza Sales Schema. It includes a series of SQL challenges ranging from basic to advanced, along with the corresponding solutions. The project is designed to demonstrate SQL skills, including data retrieval, joining tables, aggregation, and more.
 
