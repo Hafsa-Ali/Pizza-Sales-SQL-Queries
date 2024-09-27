@@ -12,7 +12,42 @@ What's Included:
 - Queries (Screenshots): Visual proof of successful query executions.
 
 Skills: SQL
+## SQL Challenges and Solutions
 
+### Basic Questions
+1. **Question 1: [Retrieve the total number of orders placed.]**
+   - **Snapshot:**  
+     ![Query 1 Snapshot](link_to_your_snapshot1.png)
+   - **SQL Query:**
+     ```sql
+     -- Your SQL query here
+     ```
+
+2. **Question 2: [Brief Description]**
+   - **Snapshot:**  
+     ![Query 2 Snapshot](link_to_your_snapshot2.png)
+   - **SQL Query:**
+     ```sql
+     -- Your SQL query here
+     ```
+
+### Intermediate Questions
+1. **Question 1: [Brief Description]**
+   - **Snapshot:**  
+     ![Query 3 Snapshot](link_to_your_snapshot3.png)
+   - **SQL Query:**
+     ```sql
+     -- Your SQL query here
+     ```
+
+### Advanced Questions
+1. **Question 1: [Brief Description]**
+   - **Snapshot:**  
+     ![Query 4 Snapshot](link_to_your_snapshot4.png)
+   - **SQL Query:**
+     ```sql
+     -- Your SQL query here
+     ```
 - 🔭 I’m currently working on this page. 
 - 🌱 I’m currently learning Data Science & Data Analytics 
 - 📫 How to reach me: LinkedIn: https://www.linkedin.com/in/-hafsa-ali/ 
