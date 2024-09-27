@@ -20,10 +20,10 @@ Skills: SQL
      ![Query 1 Snapshot](link_to_your_snapshot1.png)
    - **SQL Query:**
      ```sql
-     -- Your SQL query here
+     -- select count(order_id) from orders;
      ```
 
-2. **Question 2: [Brief Description]**
+2. **Question 2: [Calculate the total revenue generated from pizza sales.]**
    - **Snapshot:**  
      ![Query 2 Snapshot](link_to_your_snapshot2.png)
    - **SQL Query:**
