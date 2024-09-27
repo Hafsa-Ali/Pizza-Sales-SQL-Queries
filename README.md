@@ -17,7 +17,7 @@ Skills: SQL
 ### Basic Questions
 1. **Question 1: [Retrieve the total number of orders placed.]**
    - **Snapshot:**  
-     ![Query 1 Snapshot]([![image](https://github.com/user-attachments/assets/1838adf8-bd1d-47e9-81e1-b69540da83ef](https://github.com/Hafsa-Ali/Pizza-Sales-SQL-Queries/blob/main/Queries/Basic%201.PNG))
+     ![Query 1 Snapshot](https://github.com/Hafsa-Ali/Pizza-Sales-SQL-Queries/blob/main/Queries/Basic%201.PNG)
 )
    - **SQL Query:**
      ```sql
